@@ -24,12 +24,12 @@ services:
       - microservices-network
 
   mysql:
-    image: mysql:5.7
+    image: docker.arvancloud.ir/mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: mydatabase
     ports:
-      - "3306:3306"
+      - "3307:3306"
     networks:
       - microservices-network
 

@@ -14,6 +14,7 @@
         <module>user-service</module>
     </modules>
 
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -99,8 +100,23 @@
                 <version>1.5.7.RELEASE</version>
             </dependency>
 
+
         </dependencies>
+
+
     </dependencyManagement>
+
+<!--    <dependencyManagement>-->
+<!--        <dependencies>-->
+<!--            <dependency>-->
+<!--                <groupId>org.springframework.cloud</groupId>-->
+<!--                <artifactId>spring-cloud-dependencies</artifactId>-->
+<!--                <version>{spring-cloud-version}</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
+<!--        </dependencies>-->
+<!--    </dependencyManagement>-->
 
     <build>
         <pluginManagement>
